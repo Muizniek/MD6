@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1205px;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.button--section{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.sqare--section{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.square {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  border-radius: 4px;
+  background-color: #18d5e1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  font-size: 56px;
+  line-height: 120%;
+  font-family: ABeeZee;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border-radius: 8px;
+  background-color: #017187;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #fff;
+  font-family: ABeeZee;
+}
+
+
+.button2{
+  background-color:#8b4baa;
+}
+
+.button3{
+ background-color: #bc7a71;
+}
+
+.button4{
+  background-color: #5fb367;
+}
+
+.button5{
+  background-color: #e2cf22;
+}
+
+.button6{
+  background-color: #011e87;
+}
+
+.button7{
+  background-color: #18d5e1;
+  display: flex;
+}
+
+.bottom--button{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 63px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input{
+  border-radius: 6px;
+  background-color: #fff;
+  border: 2px solid #e5e7eb;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13px 15px 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #9ca3af;
+  font-family: Inter;
+}
+
+.outputtxt{
+  font-size: 24px;
+  line-height: 24px;
+  font-family: 'Roboto Condensed';
+  color: #000;
+  text-align: left;
+}
+
+.special--button{
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 56px;
+  line-height: 120%;
+  font-family: ABeeZee;
+  color: #000;
+}
